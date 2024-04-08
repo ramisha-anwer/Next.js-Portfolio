@@ -44,9 +44,9 @@ function about() {
             </Head>
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text={"A little background!"} className="mb-16" />
-                    <div className='grid w-full grid-cols-8 gap-16'>
-                        <div className='col-span-3 flex flex-col items-start justify-start'>
+                    <AnimatedText text={"A little background!"} className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
+                    <div className='grid w-full grid-cols-8 gap-16 sm:gap-8 '>
+                        <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-cold text-dark/75 uppercase dark:text-light/75'>About me</h2>
 
                             <p className='font-medium'>
@@ -62,28 +62,28 @@ function about() {
                                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                             </p>
                         </div>
-                        <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light p-8'>
-                            <div className='absolute top-0 -right-3 -z-10 h-[103%] w-full rounded-[2rem] bg-dark dark:bg-light' />
+                        <div className='col-span-3 xl:col-span-4 relative h-max md:hidden  rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light p-8'>
+                            <div className='absolute top-0 -right-3 -z-40 h-[103%] w-[102%] rounded-[2rem] bg-dark dark:bg-light' />
                             <Image src={aboutPic} />
                         </div>
-                        <div className='col-span-2 flex-col flex items-end justify-between'>
-                            <div className='flex flex-col justify-center items-end'>
-                                <span className='inline-block text-7xl font-bold'>
+                        <div className='col-span-2 xl:col-span-8 flex-col flex xl:flex-row items-end justify-between'>
+                            <div className='flex flex-col justify-center items-end xl:items-center'>
+                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                     <AnimatedNumbers value={10}/>+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Satisfied Clients</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Satisfied Clients</h2>
                             </div>
-                            <div className='flex flex-col justify-center items-end'>
-                                <span className='inline-block text-7xl font-bold'>
+                            <div className='flex flex-col justify-center items-end xl:items-center'>
+                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                     <AnimatedNumbers value={20}/>+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>Projects</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects</h2>
                             </div>
-                            <div className='flex flex-col justify-center items-end'>
-                                <span className='inline-block text-7xl font-bold'>
+                            <div className='flex flex-col justify-center items-end xl:items-center'>
+                                <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                   <AnimatedNumbers value={2}/>+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>years of experience</h2>
                             </div>
                         </div>
                     </div>

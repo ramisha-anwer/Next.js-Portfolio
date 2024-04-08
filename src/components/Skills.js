@@ -21,8 +21,8 @@ function Skills() {
     const [mode,setMode]=useThemeSwitcher();
   return (
       <>
-       <h2 className='font-bold text-6xl mt-44 mb-10 w-full text-center'>Tech Stack</h2>
-      <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8'>
+       <h2 className='font-bold text-6xl mt-44 mb-10 w-full text-center md:mb-16 xs:text-4xl'>Tech Stack</h2>
+      <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 grid-cols-4 gap-8 text-center py-8'>
           <div className='flex flex-col items-center justify-center shadow-lg shadow-gray-200 dark:shadow-gray-700 hover:scale-110 duration-500 py-4 rounded-md border-2 border-solid border-black dark:border-light'>
               <Image className='w-[4rem]' src={HTML}/>
               <p className='mt-4'>HTML</p>
