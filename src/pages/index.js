@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import AnimatedText from '@/components/AnimatedText';
-import Form from '@/components/Form';
 import Form2 from '@/components/Form2';
 import { LinkArrow } from '@/components/Icons';
 import Layout from '@/components/Layout';
