@@ -45,7 +45,7 @@ export default function Home() {
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link href="/CV.pdf" target="_blank" className="flex items-center p-2.5 px-6 md:p-2 md:px-4 md:text-base rounded-lg bg-dark text-light dark:bg-light dark:text-dark font-semibold text-lg hover:text-dark hover:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light border-solid border-transparent border-2 hover:border-dark">
                   Resume
-                  <LinkArrow className="!w-[30px] ml-2" />
+                  <LinkArrow className="!w-[30px] !h-[30px] ml-2" />
                 </Link>
                 <button onClick={toggleModal} className="ml-4 text-lg underline underline-offset-2 capitalize text-dark font-medium dark:text-light md:text-base cursor-pointer">Contact</button>
               </div>
