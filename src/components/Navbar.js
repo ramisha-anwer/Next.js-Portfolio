@@ -94,8 +94,8 @@ export const Navbar = () => {
                         className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode == "dark" ? "bg-light text-dark" : "bg-dark text-light"}`}
                     >
                         {mode === "dark" ?
-                            <MoonIcon className="fill-dark" /> :
-                            <SunIcon className="fill-dark" />
+                            <MoonIcon className="fill-dark !w-[30px]" /> :
+                            <SunIcon className="fill-dark !w-[30px]" />
 
                         }
                     </button>
