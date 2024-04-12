@@ -33,7 +33,7 @@ function Form2({ onClose }) {
         <section className="p-6 dark:text-gray-800">
             <form onSubmit={onSubmit} noValidate="" className=" w-[50vw] lg:w-[80vw] max-w-xl p-8 mx-auto space-y-6 rounded-md shadow dark:bg-light">
                 <div>
-                    <h2 className="w-full text-3xl font-bold leading-tight">Let's Talk!</h2>
+                    <h2 className="w-full text-3xl font-bold leading-tight">Let&apos;s Talk!</h2>
                 </div>
                 <div>
                     <label htmlFor="name" className="block mb-1 ml-1">Name</label>
