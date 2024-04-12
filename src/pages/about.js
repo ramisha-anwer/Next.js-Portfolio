@@ -3,6 +3,7 @@ import Education from '@/components/Education'
 import Experience from '@/components/Experience'
 import Layout from '@/components/Layout'
 import Skills from '@/components/Skills'
+import TransitionEffect from '@/components/TransitionEffect'
 import { spring, useInView, useMotionValue, useSpring } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -42,6 +43,7 @@ function about() {
                 <title>Portfolio | About </title>
                 <meta name='description' content="full stack developer portfolio" />
             </Head>
+            <TransitionEffect/>
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text={"A little background!"} className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />

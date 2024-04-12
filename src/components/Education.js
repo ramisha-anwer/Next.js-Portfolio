@@ -6,7 +6,7 @@ import LiIcon from './LiIcon'
 const Details = ({ type, time, place, info }) => {
     const ref = useRef(null);
 
-    return <li ref={ref} className='my-8 first:mt-0 bottom:mb-0 w-[60%] md:w-[80%] mx-auto flex flex-col items-center justify-start'>
+    return <li ref={ref} className='my-8 first:mt-0 bottom:mb-0 w-[80%] md:w-[80%] mx-auto flex flex-col items-start justify-start'>
         <LiIcon reference={ref} />
         <motion.div
             initial={{ y: 50 }}
@@ -44,26 +44,18 @@ function Education() {
                         className='absolute left-9 w-[4px] md:w-[2px] md:left-[30px] xs:left-[19px] h-full bg-dark dark:bg-light origin-top' />
                     <ul className='w-full flex flex-col items-start justify-between ml-4'>
                         <Details
-                            type="  Bachelor Of Science In Computer Science"
-                            time="  2016-2020"
-                            place="Massachusetts Institute Of Technology (MIT)"
-                            info="  Relevant courses: Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence."
+                            type="Bachelor of Software Engineering"
+                            time="2020-2024"
+                            place="National University of Sciences and Technology"
+                            info="Relevant modules: Object Oriented Programming (A), Operating Systems (A), Data Warehousing and Mining (B+)"
                         />
                         <Details
-                            type="  Bachelor Of Science In Computer Science"
-                            time="  2016-2020"
-                            place="Massachusetts Institute Of Technology (MIT)"
-                            info="  Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence."
+                            type=" FSC"
+                            time="2017-2019"
+                            place="Punjab College, Islamabad"
+                            info="Relevant Modules: Calculus, Physics, and Statistics and Probability ."
                         />
-                        <Details
-                            type="  Bachelor Of Science In Computer Science"
-                            time="  2016-2020"
-                            place="Massachusetts Institute Of Technology (MIT)"
-                            info="  Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence."
-                        />
+                        
 
                     </ul>
                 </div>
